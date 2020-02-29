@@ -13,6 +13,7 @@ The Disaster Meetup site allows the user to create a meetup at a specified locat
 
 1. Install the package
 2. Publish the site
+3. Allow Location Permissions in the browser during the initial load
 
 ## Configuration
 
