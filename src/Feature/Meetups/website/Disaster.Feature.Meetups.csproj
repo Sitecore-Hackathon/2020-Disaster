@@ -47,6 +47,9 @@
     <Reference Include="Sitecore.ExperienceForms, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.9.3.0\lib\net471\Sitecore.ExperienceForms.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.ExperienceForms.Mvc, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.Mvc.9.3.0\lib\net471\Sitecore.ExperienceForms.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.9.3.0\lib\net471\Sitecore.Kernel.dll</HintPath>
     </Reference>
@@ -88,6 +91,13 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants\FieldIds.cs" />
+    <Compile Include="Constants\ItemIds.cs" />
+    <Compile Include="Constants\TemplateIds.cs" />
+    <Compile Include="FormsExtensions\FormsHelper.cs" />
+    <Compile Include="FormsExtensions\SubmitActions\CreateMeetup.cs" />
+    <Compile Include="Helpers\PublishingHelper.cs" />
+    <Compile Include="Models\MeetupFormModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +109,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
