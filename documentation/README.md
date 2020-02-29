@@ -7,6 +7,7 @@ The Disaster Meetup site allows the user to create a meetup at a specified locat
 ## Pre-requisites
 
  - Sitecore 9.3 with SXA
+ - Google Maps API key
 
 ## Installation
 
@@ -23,3 +24,5 @@ It works out of the box, no additional configuration needed
 The homepage serves as the launch point to take the user to the "Create a new meetup" form as well as provide the Google Maps interface with the dropped pins that have meetup information. The user can zoom the map in and out, drag it around, click on dropped pins to read the information pertaining to those meetups. The "Create a new meetup" form is straightfoward, it takes in the information and redirects the user to a success page.
 
 ## Video
+
+https://youtu.be/PahMMGKuzJM
