@@ -11,9 +11,11 @@ The Disaster Meetup site allows the user to create a meetup at a specified locat
 
 ## Installation
 
-1. Install the package - 
+1. Install the package - 2020-Disaster/sc.package/SitecoreHackathon2020DisasterMeetupSite-1.zip aka
+    https://github.com/Sitecore-Hackathon/2020-Disaster/blob/master/sc.package/SitecoreHackathon2020DisasterMeetupSite-1.zip
 2. Publish the site
-3. Allow Location Permissions in the browser during the initial load
+3. Navigate to the homepage
+4. Allow Location Permissions in the browser during the initial load
 
 ## Configuration
 
